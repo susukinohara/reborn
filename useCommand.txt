@@ -1,0 +1,11 @@
+docker stop 7d8b5444c085
+docker rm 7d8b5444c085
+docker ps
+docker-compose up -d
+docker exec -it 7d8b5444c085 bash
+mysql -p
+
+
+SHOW DATABASES 
+USE sakura
+select * from sakura_reborn;
